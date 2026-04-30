@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    cursor: crosshair;
+    border: 1px solid #333;
+}
+
+#info {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 12px;
+    color: #888;
+    font-size: 13px;;
+}
+
+#reset-btn {
+    background: transparent;
+    border: 1px solid #444;
+    color: #888;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 13px;
+}
+
+#reset-btn:hover {
+    border-color: #888;
+    color: #ccc;
+}

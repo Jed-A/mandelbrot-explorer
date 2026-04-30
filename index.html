@@ -1,0 +1,20 @@
+<!DOCTYPE htmL>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, internal-scale=1.0">
+        <title>Mandelbrot Set Explorer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="app">
+            <canvas id="canvas"></canvas>
+            <div id="info">
+                <span id="coords">Click to zoom in</span>
+                <span id="iterations-label">Max Iterations: <span id="iter-count">100</span></span>
+                <button id="reset-btn">Reset view</button>
+            </div>
+        </div>
+        <script src="mandelbrot.js"></script>
+    </body>
+</html>
